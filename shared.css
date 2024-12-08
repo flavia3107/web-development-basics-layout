@@ -84,6 +84,7 @@ footer img {
   width: 10rem;
   display: flex;
   text-decoration: none;
+  z-index: 2;
 }
 
 .logo > img {
@@ -94,7 +95,7 @@ footer img {
   padding-left: 7px;
   display: flex;
   flex-direction: column;
-  color: #272727;
+  color: #eee;
   align-items: flex-start;
 }
 
@@ -115,7 +116,7 @@ footer img {
   font-weight: bolder;
   font-size: 1.1rem;
   margin-top: 2px;
-  color: #272727;
+  color: #eee;
 }
 
 .logo-txt span {
