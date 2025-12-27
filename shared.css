@@ -13,12 +13,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
   position: absolute;
   width: 100%;
   top: 0;
   left: 0;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 header ul {
@@ -69,54 +69,11 @@ footer img {
   height: 100%;
 }
 
-.logo:hover {
-  text-decoration: none;
-}
-
 .logo {
   text-decoration: none;
-  width: 10rem;
   display: flex;
-  text-decoration: none;
-  z-index: 2;
 }
 
-.logo > img {
-  height: 35px;
-}
-
-.logo-txt {
-  padding-left: 7px;
-  display: flex;
-  flex-direction: column;
-  color: #eee;
-  align-items: flex-start;
-}
-
-.logo-img {
-  width: 2rem;
-  margin-right: 3px;
-}
-
-.logo-txt h1,
-.logo-txt span {
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  letter-spacing: 4px;
-}
-
-.logo-txt h1 {
-  font-weight: bolder;
-  font-size: 1.1rem;
-  margin-top: 2px;
-  color: #eee;
-}
-
-.logo-txt span {
-  font-weight: lighter;
-  font-size: 0.85rem;
-}
 ::-webkit-scrollbar {
   height: 9px;
   width: 9px;
