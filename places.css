@@ -77,3 +77,19 @@ main li img {
     max-width: 90%;
   }
 }
+
+@media (max-width: 580px) {
+  main ul {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  main li {
+    flex-direction: column;
+  }
+
+  main li img {
+    width: 100%;
+  }
+}
