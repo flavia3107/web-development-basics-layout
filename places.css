@@ -69,3 +69,11 @@ main li img {
 .actions a:hover {
   background-color: rgb(235, 253, 255);
 }
+
+@media (max-width: 900px) {
+  main ul {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+  }
+}
